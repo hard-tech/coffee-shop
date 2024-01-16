@@ -21,7 +21,7 @@ class User {
     
     public static function getByEmail($email) {
         global $db;
-        $query = $db->prepare('SELECT * FROM users WHERE email = ?');
+        $query = $db->prepare('SELECT * FROM users WHERE email = ?;');
         $query->execute([$email]);
         $query->setFetchMode(PDO::FETCH_CLASS, 'User');
         $user = $query->fetch(); // si pas de result , c'est false;
@@ -39,7 +39,7 @@ class User {
     
     public function save() {
         global $db;
-        $query = $db->prepare('INSERT INTO users (email, username, password, role, last_ip) VALUES(?, ?, ?, ?, ?)');
+        $query = $db->prepare('INSERT INTO users (email, username, password, role, last_ip) VALUES(?, ?, ?, ?, ?);');
         $query->execute([
             $user->email,
             $user->username,
