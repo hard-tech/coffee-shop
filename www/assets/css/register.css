@@ -1,0 +1,79 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Assure que padding et border sont inclus dans la width */
+}
+
+.input-group input,
+button {
+  width: 100%;
+  padding: 12px 15px;
+  /* Assurez-vous que le padding est le même pour les input et les boutons */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #bc9264;
+  color: white;
+  border: 1px solid transparent;
+  /* Ajoute une bordure transparente pour correspondre à celle des input */
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #94714c;
+  transition: 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-form-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form-container {
+    padding: 10px;
+  }
+}
