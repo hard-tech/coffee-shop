@@ -8,8 +8,8 @@ if (!isset($_POST['email'])) {
     die();
 }
 
-if (!isset($_POST['username'])) {
-    $_SESSION['error_message'] = "Pas de username";
+if (!isset($_POST['fullname'])) {
+    $_SESSION['error_message'] = "Pas de fullname";
     header('Location: /?p=register');
     die();
 }
