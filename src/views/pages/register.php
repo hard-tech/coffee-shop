@@ -20,7 +20,7 @@
             <h2>Inscription</h2>
             <div class="input-group">
                 <label for="username">Nom complet</label>
-                <input type="text" id="username" name="username" placeholder="Entrez votre nom d'utilisateur">
+                <input type="text" id="fullname" name="fullname" placeholder="Entrez votre nom complet">
             </div>
             <div class="input-group">
                 <label for="email">E-mail</label>
