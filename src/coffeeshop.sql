@@ -33,7 +33,8 @@ CREATE TABLE `orders` (
   `product_id` int(11) NOT NULL,
   `adress` varchar(255) NOT NULL,
   `status` int(11) NOT NULL,
-  `date` datetime NOT NULL DEFAULT current_timestamp()
+  `created_date` datetime NOT NULL DEFAULT current_timestamp(),
+  `modified_date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
