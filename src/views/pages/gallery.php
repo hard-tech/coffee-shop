@@ -17,7 +17,7 @@ ob_start();?>
                <div class="row">
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-1.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-1.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                         </div>
@@ -25,7 +25,7 @@ ob_start();?>
                   </div>
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-2.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-2.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                         </div>
@@ -33,7 +33,7 @@ ob_start();?>
                   </div>
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-3.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-3.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                         </div>
@@ -45,7 +45,7 @@ ob_start();?>
                <div class="row">
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-4.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-4.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                         </div>
@@ -53,7 +53,7 @@ ob_start();?>
                   </div>
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-5.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-5.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="overlay">
                               <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
@@ -63,7 +63,7 @@ ob_start();?>
                   </div>
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-6.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-6.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="overlay">
                               <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
@@ -77,7 +77,7 @@ ob_start();?>
                <div class="row">
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-7.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-7.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                         </div>
@@ -85,7 +85,7 @@ ob_start();?>
                   </div>
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-8.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-8.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                         </div>
@@ -93,7 +93,7 @@ ob_start();?>
                   </div>
                   <div class="col-md-4">
                      <div class="container_main">
-                        <img src="images/img-9.png" alt="Avatar" class="image">
+                        <img src="assets/images/img-9.png" alt="Avatar" class="image">
                         <div class="overlay">
                            <div class="text"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                         </div>

@@ -16,11 +16,11 @@ ob_start();?>
                   </div>
                </div>
                <div class="col-md-6">
-                  <div class="about_img"><img src="images/about-img.png"></div>
+                  <div class="about_img"><img src="assets/images/about-img.png"></div>
                </div>
             </div>
          </div>
       </div>
       <!-- about section end -->
-<?php
+      <?php
 $page_content = ob_get_clean();
